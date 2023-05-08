@@ -137,15 +137,17 @@ column-gap: 24px;
 }
 /*наш напрямок*/
 
-.text-main{
+.text-main-our-way{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 padding-bottom: 8px;
+outline: 1px solid red;
+
 color: var(--previous-color-text);}
 
-.text-minor{
+.text-minor-our-way{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -237,8 +239,27 @@ color: var(--previous-color-text);}
 
 /*Наша команда*/
 
+.team-name{
+    padding-top: 32px;
+    text-align: center;
+    
+}
+
+.text-main-our-team{
+
+}
+
+
+.text-minor-our-team{
+    margin-top: 8px;
+    margin-bottom: 32px;
+
+    
+}
+
 .section-our-team{
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .list-our-team{
@@ -246,6 +267,9 @@ color: var(--previous-color-text);}
     column-gap: 24px;
     align-items: center;
 
+}
+.team-list-item{
+   
 }
 
 
@@ -257,7 +281,8 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-padding-top: 120px;
+outline: 1px solid red;
+
 color: var(--previous-color-text);}
 
 .main-team{
@@ -271,7 +296,7 @@ letter-spacing: 0.02em;
 color: var(--footer-text-color);}
 
 .page-footer{
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
 
 .logo-footer{
