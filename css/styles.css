@@ -214,11 +214,14 @@ background-color: #2E2F42;}
 
 /*Що ми робимо*/
 
-.list{
+.list-our-work{
     display: flex;
     column-gap: 24px;
-    padding-top: 72px;
-    margin-bottom: 120px;
+    outline: 1px solid red;
+}
+
+.section-our-works {
+    padding-bottom: 120px;
 }
 
 .our-works{
@@ -228,7 +231,23 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
+
 color: var(--previous-color-text);}
+
+/*Наша команда*/
+
+.section-our-team{
+    padding-bottom: 120px;
+}
+
+.list-our-team{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+
+}
+
 
 .text-main-team{
 font-weight: 700;
@@ -237,6 +256,8 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
+padding-top: 120px;
 color: var(--previous-color-text);}
 
 .main-team{
