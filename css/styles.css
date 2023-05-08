@@ -143,7 +143,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 padding-bottom: 8px;
-outline: 1px solid red;
 
 color: var(--previous-color-text);}
 
@@ -219,7 +218,6 @@ background-color: #2E2F42;}
 .list-our-work{
     display: flex;
     column-gap: 24px;
-    outline: 1px solid red;
 }
 
 .section-our-works {
@@ -281,8 +279,6 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-outline: 1px solid red;
-
 color: var(--previous-color-text);}
 
 .main-team{
