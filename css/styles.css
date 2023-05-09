@@ -326,6 +326,19 @@ color: var(--footer-text-color);}
 
 /* Портфоліо*/
 
+.qwer{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.qaz{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
 .main-but-pf{
     font-family: 'Roboto', sans-serif;
         font-style: normal;
