@@ -375,15 +375,16 @@ color: var(--footer-text-color);}
 .list-pf{
    border-width: 1px ;
 border-style: solid ;
+border-top: none;
 border-color: #E7E9FC;
+padding: 32px 16px;
 }
 
 
 
 
 .img-pf{
-    margin-bottom: 32px;
-    border: 1px solid #E7E9FC;
+
 }
 
 
