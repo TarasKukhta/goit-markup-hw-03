@@ -326,16 +326,60 @@ color: var(--footer-text-color);}
 
 /* Портфоліо*/
 
+.pf-main-but{
+    padding: 72px;
+
+
+}
+
+.text-main-pf{
+
+}
+
+.text-minor-pf{
+    margin-top: 8px;
+    margin-bottom: 32px;
+
+}
+
+
 .qwer{
     display: flex;
     align-items: center;
     gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.button-pf{
+    align-items: center;
+    text-align: center;      
+    letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border: 1px;
+    border-radius: 4px;
+    flex-direction: row;
+    
 }
 
 .qaz{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    
+    
+}
+
+.list.pf{
+    outline: 2px solid red;
+}
+
+
+
+.img-pf{
+    margin-bottom: 32px;
+    border: 1px solid #E7E9FC;
 }
 
 
