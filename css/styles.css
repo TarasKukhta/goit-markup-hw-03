@@ -350,6 +350,7 @@ color: var(--footer-text-color);}
     align-items: flex-start;
     justify-content: center;
     
+    
 }
 
 .button-pf{
@@ -371,9 +372,12 @@ color: var(--footer-text-color);}
     
 }
 
-.list.pf{
-    outline: 2px solid red;
+.list-pf{
+   border-width: 1px ;
+border-style: solid ;
+border-color: #E7E9FC;
 }
+
 
 
 
