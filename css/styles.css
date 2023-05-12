@@ -119,7 +119,8 @@ gap: 40px;
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* ================= HERO ================= */
@@ -381,9 +382,7 @@ color: var(--footer-text-color);}
 
 .list-portfolio-buttom{
     display: flex;
-    align-items: center;
     gap: 24px;
-    align-items: flex-start;
     justify-content: center;
     margin-bottom: 72px;
     
