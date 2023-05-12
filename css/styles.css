@@ -70,8 +70,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-left: auto;
-margin-right: 40px;
-gap: 40px;
+
+
 color: var(--secondary-color-text);}
 
 .menu-link{
@@ -108,7 +108,7 @@ color: #2e2f42;}
     display: flex;
     align-items: center;
     padding: 24px 0;
-
+gap: 40px;
 }
 
 .page-navigation {
@@ -130,6 +130,10 @@ display: flex;
 align-items: center;
 
 }
+.list-our-way{
+    
+}
+
 .our-way{
 padding-top: 120px;
 padding-bottom: 120px;
@@ -137,7 +141,8 @@ padding-bottom: 120px;
 
 .our-direction{
 display: flex;
-column-gap: 24px;
+gap: 24px;
+
 
 
 }
@@ -187,17 +192,27 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--third-color-text);}
+color: var(--third-color-text);
+margin-left: auto;
+margin-right: auto;
+max-width: 496px;
+}
 
 /*секція-герой-головна*/
 .hero{
 text-align: center;
+
 padding: 188px 0 188px 0;
+
 background-color:var(--hero-background-color);
 
 }
 /*кнопка-головна*/
 .button-hero{
+    display: block;
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
