@@ -245,6 +245,7 @@ background-color: #2E2F42;}
 .list-our-work{
     display: flex;
     gap: 24px;
+    margin-bottom: 8px;
 }
 
 .section-our-works {
@@ -263,8 +264,6 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-margin-bottom: 8px; 
-
 color: var(--previous-color-text);}
 
 /*Наша команда*/
@@ -309,7 +308,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 72px;
+margin-bottom:72px;
 color: var(--previous-color-text);}
 
 .main-team{
@@ -397,6 +396,7 @@ color: var(--footer-text-color);}
 }
 .item{
     flex-basis: calc((100% - 20px) / 9);
+    margin-bottom: 8px;
 }
 
 
@@ -451,6 +451,7 @@ padding-bottom: 120px;
         text-align: center;
         letter-spacing: 0.04em;
     border: 1px solid var(--main-but-pf-border);
+    border: 1px solid transparent
         color: var(--button-color-text);
         background-color: var(--button-color-bg);
 }
@@ -460,7 +461,9 @@ padding-bottom: 120px;
 }
 
 .main-but-pf:hover,
-.main-but-pf:focus{ color: #FFFFFF;
+.main-but-pf:focus{
+    border: 1px solid transparent;
+     color: #FFFFFF;
     background-color: #404BBF;}
 
 
