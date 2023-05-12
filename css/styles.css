@@ -131,7 +131,12 @@ align-items: center;
 
 }
 .list-our-way{
+    width: calc((100% - 72px) / 4);
     
+}
+
+.our-way-text{
+    margin-bottom: 8px;
 }
 
 .our-way{
@@ -235,7 +240,7 @@ background-color: #2E2F42;}
 
 .list-our-work{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .section-our-works {
@@ -256,21 +261,19 @@ color: var(--previous-color-text);}
 /*Наша команда*/
 
 .team-name{
-    padding-top: 32px;
+    padding: 32px 16px;
     text-align: center;
     
 }
 
 .text-main-our-team{
+    margin-bottom: 8px
 
 }
 
 
 .text-minor-our-team{
-    margin-top: 8px;
-    margin-bottom: 32px;
-
-    
+    margin-top: 8px;  
 }
 
 .section-our-team{
@@ -280,11 +283,12 @@ color: var(--previous-color-text);}
 
 .list-our-team{
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     align-items: center;
 
 }
 .team-list-item{
+    border-radius: 0px 0px 4px 4px;
    
 }
 
@@ -297,6 +301,7 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
+
 color: var(--previous-color-text);}
 
 .main-team{
