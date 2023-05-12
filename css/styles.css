@@ -162,7 +162,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding-bottom: 8px;
+margin-bottom: 8px;
 
 color: var(--previous-color-text);}
 
@@ -391,8 +391,7 @@ color: var(--footer-text-color);}
     justify-content: center;
     margin-bottom: 72px;
     
-    
-    
+
 }
 .item{
     flex-basis: calc((100% - 20px) / 9);
@@ -416,6 +415,7 @@ color: var(--footer-text-color);}
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    margin-bottom: 8px;
     
     
 }
@@ -451,7 +451,7 @@ padding-bottom: 120px;
         text-align: center;
         letter-spacing: 0.04em;
     border: 1px solid var(--main-but-pf-border);
-    border: 1px solid transparent
+    border: 1px solid transparent;
         color: var(--button-color-text);
         background-color: var(--button-color-bg);
 }
