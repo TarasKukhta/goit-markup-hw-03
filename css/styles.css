@@ -70,6 +70,7 @@ margin-right: 76px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+ padding: 24px 0;
 margin-left: auto;
 
 
@@ -93,8 +94,7 @@ color: #2e2f42;}
 .page-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -109,7 +109,7 @@ color: #2e2f42;}
 .contact-list{
     display: flex;
     align-items: center;
-    padding: 24px 0;
+   
 gap: 40px;
 }
 
@@ -245,7 +245,7 @@ background-color: #2E2F42;}
 .list-our-work{
     display: flex;
     gap: 24px;
-    margin-bottom: 8px;
+  
 }
 
 .section-our-works {
@@ -253,7 +253,7 @@ background-color: #2E2F42;}
 }
 
 .our-works-photo{
-    margin-bottom: 8px;
+ 
 }
 
 .our-works{
@@ -396,7 +396,7 @@ color: var(--footer-text-color);}
 }
 .item{
     flex-basis: calc((100% - 20px) / 9);
-    margin-bottom: 8px;
+   
 }
 
 
@@ -416,7 +416,7 @@ color: var(--footer-text-color);}
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
-    margin-bottom: 8px;
+   
     
     
 }
