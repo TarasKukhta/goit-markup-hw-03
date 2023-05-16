@@ -82,6 +82,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 padding: 24px 0;
+display: block;
 color: #2e2f42;}
 
 .link:hover,
@@ -121,8 +122,7 @@ gap: 40px;
 .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 }
 
 /* ================= HERO ================= */
